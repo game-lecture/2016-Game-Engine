@@ -78,9 +78,6 @@ public:
     mViewport->setBackgroundColour(ColourValue(0.0f,0.0f,0.5f));
     mCamera->setAspectRatio(Real(mViewport->getActualWidth()) / Real(mViewport->getActualHeight()));
 
-
-    // 여기를 채우시오.
-
     ResourceGroupManager::getSingleton().addResourceLocation("resource.zip", "Zip");
     ResourceGroupManager::getSingleton().initialiseAllResourceGroups();
 

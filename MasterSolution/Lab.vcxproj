@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{02318B67-72FB-465C-9385-5ABD08B8CDDD}</ProjectGuid>
     <RootNamespace>camera</RootNamespace>
-    <ProjectName>HelloProfessor</ProjectName>
+    <ProjectName>MakeRenderWindow</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -73,7 +73,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>c:\bin\$(Configuration)\</OutDir>
-    <IntDir>c:\bin\int\(Configuration)\</IntDir>
+    <IntDir>c:\bin\int\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>bin\$(Configuration)\</OutDir>
@@ -83,7 +83,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>c:\bin\$(Configuration)\</OutDir>
-    <IntDir>c:\bin\int\(Configuration)\</IntDir>
+    <IntDir>c:\bin\int\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

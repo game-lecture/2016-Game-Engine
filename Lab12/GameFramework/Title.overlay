@@ -1,0 +1,31 @@
+Overlay/Title
+{
+  zorder 100
+	container Panel(TitleContainer)
+	{
+		container Panel(TitleLOGO)
+		{
+		  metrics_mode relative
+		  vert_align center
+		  horz_align center
+		  top -0.2
+		  left -0.15
+		  height 0.4
+		  width 0.3
+		  material KPU_LOGO2
+		}
+		
+	  element TextArea(StartMsg)
+    {
+      metrics_mode relative
+      horz_align center
+      top 0.8
+      left -0.23
+      font_name Font/NanumBold18
+      char_height 0.05
+      caption PRESS SPACE KEY TO START
+      colour_top 1 1 1
+      colour_bottom 1 1 1
+     }
+	}
+}
